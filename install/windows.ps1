@@ -5,7 +5,7 @@ Set-Location ~\AppData\Local\torch
 git clone https://github.com/mooziii/torch install
 Set-Location install
 ./gradlew installDist
-Copy-Item torch\build\install\torch\* .. -Recurse
+Copy-Item build\install\torch\* .. -Recurse
 Set-Location ..
 Remove-Item install -Recurse -Force
 Remove-Item bin/torch -Force
