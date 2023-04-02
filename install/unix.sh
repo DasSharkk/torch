@@ -4,6 +4,7 @@ git clone https://github.com/mooziii/torch.git torch-installation
 cd torch-installation || exit
 chmod +x gradlew
 ./gradlew installDist
+echo "hi"
 cp -r torch/build/install/torch install/torch
 clear
 cd install || exit
