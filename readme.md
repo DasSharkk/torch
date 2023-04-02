@@ -20,6 +20,8 @@ irm https://raw.githubusercontent.com/mooziii/torch/master/install/windows.ps1 |
 
 For Linux and macOS systems run this command using bash:
 
+### do it yourself, script doesn't work because I DONT KNOW
+
 ```bash
 curl -sS https://raw.githubusercontent.com/mooziii/torch/master/install/unix.sh | bash
 ```
