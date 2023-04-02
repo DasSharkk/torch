@@ -1,12 +1,12 @@
-cd ~ || exit
+cd ~
 rm -rf torch-installation
 git clone https://github.com/mooziii/torch.git torch-installation
-cd torch-installation || exit
+cd torch-installation
 chmod +x gradlew
 gradle installDist
 cp -r torch/build/install/torch install/torch
 clear
-cd install || exit
+cd install
 echo "###################################################################"
 echo "# You'll be prompted for your password in order to install torch. #"
 echo "###################################################################"
