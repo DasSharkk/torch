@@ -3,7 +3,7 @@ rm -rf torch-installation
 git clone https://github.com/mooziii/torch.git torch-installation
 cd torch-installation
 chmod +x gradlew
-gradle installDist
+./gradlew installDist
 cp -r torch/build/install/torch install/torch
 clear
 cd install
