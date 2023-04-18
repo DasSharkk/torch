@@ -39,3 +39,4 @@ For more options you can use `torch lit --help`.
 - [ ] addons (that provide support for more modding frameworks etc.)
 - [ ] command to edit existing projects
 - [ ] configuration (for tab indents and other stuff)
+- [ ] fix linux installer
